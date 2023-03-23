@@ -34,7 +34,11 @@
                 href="https://pixabay.com/de/photos/neuseeland-vulkangebiet-rotorua-113731/">nydegger@pixabay</a>)
         </figcaption>
         <h3>Übersichtskarte</h3>
-        <div id="map" style="width: 90%;height: 600px;border: 1px solid silver; margin: auto;"></div>
+        <div id="map"></div>
+        <script>
+            <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+        </script>
         <h3>Links</h3>
         <um>
             <li><a hrefr="https://www.rotoruanz.com/"> Link zur Tourimuswebsite von Rotorua</a></li>
@@ -55,7 +59,7 @@
 </footer>
 
 
->
+
 
     <script>
         var map = L.map('map').setView([-38.136944, 176.250833], 13);
